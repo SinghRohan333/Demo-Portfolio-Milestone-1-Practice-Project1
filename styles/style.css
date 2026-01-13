@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  max-width: 100%;
+}
+header {
+  /* margin-left: 1.25rem; */
+  /* margin-top: 2rem; */
+  /* border: 2px solid red; */
+  display: flex;
+  gap: 1.25rem;
+  background-color: #fff8f3;
+}
+.devTxt {
+  padding: 1.25rem;
+  width: 3%;
+}
+.devTxt img {
+  width: auto;
+  height: auto;
+  max-height: 500px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 50rem; */
+  /* width: 100%; */
+}
+nav ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4rem;
+}
+header nav div h1 {
+  font-size: 2.5rem;
+}
+nav ul li {
+  list-style-type: none;
+  cursor: pointer;
+  color: #474747;
+  font-weight: bold;
+}
+nav ul li button,
+.download-btn {
+  padding: 1rem 2rem;
+  background-color: #fd6e0a;
+  color: white;
+  border: 0px solid;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+header {
+  background-image: url("../images/header_bg.png");
+  /* background-size: cover; */
+  /* border: 2px solid blue; */
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 42% auto;
+}
+.fig img {
+  max-height: 500px;
+  vertical-align: middle;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner h3 {
+  color: #474747;
+  font-size: 4rem;
+  margin-bottom: 0.25rem;
+}
+.banner h2 {
+  font-size: 5rem;
+  color: #181818;
+}
+.banner p {
+  color: #757575;
+  letter-spacing: 1.5px;
+}
+.banner-btn {
+  margin-top: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+.contact-btn {
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.contact-btn:hover,
+.download-btn:hover,
+nav ul li button:hover {
+  transform: translateY(-3px);
+}
+.contact-btn:active,
+.download-btn:active,
+nav ul li button:active {
+  transform: translateY(1px);
+}
