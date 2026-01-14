@@ -23,7 +23,7 @@ header {
 .devTxt img {
   width: auto;
   height: auto;
-  max-height: 500px;
+  max-height: 90vh;
 }
 nav {
   display: flex;
@@ -65,10 +65,10 @@ header {
   /* border: 2px solid blue; */
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 42% auto;
+  background-size: 50% auto;
 }
 .fig img {
-  max-height: 500px;
+  max-height: 100vh;
   vertical-align: middle;
 }
 .banner {
@@ -114,12 +114,16 @@ nav ul li button:active {
   transform: translateY(1px);
 }
 
+main {
+  background-color: #f3f3f3;
+}
 .about-container {
   /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 4rem;
+  margin-bottom: 4rem;
 }
 .about {
   border: none;
@@ -156,4 +160,54 @@ nav ul li button:active {
 }
 .about-info section div {
   text-align: center;
+}
+.wtd-container {
+  /* border: 2px solid rebeccapurple; */
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wtd-txt {
+  /* border: 3px solid red; */
+  padding: 3rem;
+  margin-bottom: 3rem;
+  background-color: white;
+}
+.wtd-txt h1,
+p {
+  text-align: center;
+}
+.wtd-txt h1 {
+  margin-bottom: 1.5rem;
+}
+.wtd-txt p {
+  color: #757575;
+}
+.card-container {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem;
+}
+.card {
+  padding: 3rem 2rem;
+  border: none;
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.4rem 2.5rem 0;
+}
+.card figure img {
+  margin-bottom: 2rem;
+}
+.card div h2 {
+  margin-bottom: 1.25rem;
+  color: #181818;
+}
+.card div p {
+  color: #757575;
+  text-align: justify;
 }
